@@ -16,7 +16,7 @@ export const Hero = () => {
           <div className="mb-8 animate-fade-up">
             <div className="relative inline-block group">
               <div className="absolute -inset-1 bg-gradient-to-r from-[hsl(177,70%,50%)] to-[hsl(199,89%,48%)] rounded-full opacity-70 blur-sm group-hover:opacity-100 group-hover:blur-md transition-all duration-500" />
-              <div className="relative w-36 h-36 md:w-44 md:h-44 rounded-full overflow-hidden border-2 border-primary/50 group-hover:border-primary transition-all duration-500 group-hover:scale-105">
+              <div className="relative w-36 h-36 md:w-54 md:h-44 rounded-full overflow-hidden border-2 border-primary/50 group-hover:border-primary transition-all duration-500 group-hover:scale-105">
                 <img
                   src={profilePhoto}
                   alt="Profile photo"
@@ -27,7 +27,7 @@ export const Hero = () => {
           </div>
           
           <p className="text-primary font-mono text-sm md:text-base mb-4 animate-fade-up animation-delay-100">
-            Hi, my name is
+            Hi, my name is Ramesh Kalhara
           </p>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 animate-fade-up animation-delay-200">
